@@ -29,8 +29,9 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   hometown_count = 0
-  data.each do |season_arr|
-    season_arr.each do |key, value|
+  data.each do |season, season_arr|
+    season_arr.each do |data|
+
       binding.pry
     end
   end
