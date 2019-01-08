@@ -32,7 +32,7 @@ def count_contestants_by_hometown(data, hometown)
   data.each do |season, season_arr|
     season_arr.each do |data|
       data.each do |key, value|
-
+        
       binding.pry
     end
   end
